@@ -1,12 +1,12 @@
 #include "priority_queue.h"
 #include <gtest/gtest.h>
 
-// TEST(testCaseName, testName){
+// TEST(testCaseName, testName) {
 //   ... test body ...
 // }
 
 
-TEST(PriorityQueueTest,Trivial){
+TEST(PriorityQueueTest,Trivial) {
 	templatePriorityQueue<int> expTarget;
 
 	//Test 1 - Initalize
