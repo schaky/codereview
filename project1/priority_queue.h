@@ -2,8 +2,8 @@
 
 class PrioriyQueue {
   public:
-    templatePriorityQueue();
-    ~templatePriorityQueue();
+    PriorityQueue();
+    ~PriorityQueue();
     bool empty() const;
     const T& top() const;
     int size_();
