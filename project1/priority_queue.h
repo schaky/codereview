@@ -1,13 +1,12 @@
 #include <queue>
 
-template <typename T> 
-class templatePriorityQueue {
+class PrioriyQueue {
   public:
     templatePriorityQueue();
     ~templatePriorityQueue();
     bool empty() const;
     const T& top() const;
-    int size();
+    int size_();
     void push(const T&);
     void pop();	
   private:
